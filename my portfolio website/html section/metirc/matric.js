@@ -1,1 +1,0 @@
-console.log("Matriculation page loaded successfully");
