@@ -681,7 +681,11 @@ footer{
 
 }
 
+section{
 
+    scroll-margin-top:100px;
+
+}
 
 
 
@@ -696,11 +700,21 @@ footer{
 @media(max-width:768px){
 
 
-
 header{
 
+    padding:15px 20px;
 
     flex-direction:column;
+
+    position:fixed;
+
+}
+
+
+
+header h2{
+
+    font-size:22px;
 
 }
 
@@ -708,9 +722,13 @@ header{
 
 nav{
 
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
 
     margin-top:15px;
-
 
 }
 
@@ -718,21 +736,43 @@ nav{
 
 nav a{
 
+    margin:5px 10px;
 
-    margin:8px;
-
+    font-size:14px;
 
 }
 
 
 
-.section{
+.dark-toggle{
+
+    margin-top:10px;
+
+}
 
 
-    margin:40px 15px;
 
-    padding:25px;
+.numl-hero{
 
+    height:100vh;
+
+    padding:20px;
+
+}
+
+
+
+.numl-content h1{
+
+    font-size:28px;
+
+}
+
+
+
+.numl-content p{
+
+    font-size:15px;
 
 }
 
@@ -740,58 +780,73 @@ nav a{
 
 .profile-pic{
 
-
     width:140px;
 
     height:140px;
 
+}
+
+
+
+.section{
+
+    margin:40px 15px;
+
+    padding:20px;
 
 }
 
 
 
+.grid{
+
+    grid-template-columns:1fr;
+
 }
 
-@media (max-width: 768px) {
 
-    body {
-        overflow-x: hidden;
-    }
 
-    .container {
-        width: 90%;
-        margin: auto;
-    }
+.card{
 
-    nav {
-        flex-direction: column;
-    }
+    width:100%;
 
-    .navbar {
-        flex-direction: column;
-        gap: 15px;
-    }
+}
 
-    .hero {
-        text-align: center;
-        padding: 20px;
-    }
 
-    .hero img {
-        width: 80%;
-        height: auto;
-    }
 
-    .cards {
-        grid-template-columns: 1fr;
-    }
+.resume-card{
 
-    h1 {
-        font-size: 32px;
-    }
+    padding:25px;
 
-    p {
-        font-size: 16px;
-    }
+}
+
+
+
+.resume-card h3{
+
+    font-size:25px;
+
+}
+
+
+
+input,
+textarea{
+
+    font-size:14px;
+
+}
+
+
+
+#topBtn{
+
+    right:20px;
+
+    bottom:20px;
+
+}
+
+
 
 }
